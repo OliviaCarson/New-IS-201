@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(236, 236, 255);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    font-style: italic;
+    color: rebeccapurple;
+}
+
+ol {
+    font-size: larger;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    margin-right: 10px;
+    width: 700px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
